@@ -59,3 +59,6 @@ go run task_5/2.go
 ```bash
 go run task_6/3.go
 ```
+```bash
+go run task_6/8.go
+```
