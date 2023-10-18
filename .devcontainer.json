@@ -1,0 +1,12 @@
+{
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.Go"
+			]
+		}
+	},
+	"dockerComposeFile": "./docker-compose.yml",
+	"service": "server",
+	"workspaceFolder": "/app"
+}
