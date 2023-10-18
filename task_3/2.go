@@ -33,6 +33,7 @@ func (a *Addresses) Add(address Address) {
 
 // Метод удаления адреса по индексу
 func (a *Addresses) Remove(index int) {
+	// ... распаковка массива для variadic function append
 	a.List = append(a.List[:index], a.List[index+1:]...)
 }
 
